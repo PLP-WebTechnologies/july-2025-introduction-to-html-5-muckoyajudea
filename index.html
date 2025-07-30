@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML5 Demo Page | SEO & Accessibility by Judea Muckoya </title>
+</head>
+<body>
+  <!--Semetantic Html-->
+  <!-- Site Header -->
+  <header>
+    <h1>Welcome to My HTML5 Demo Page</h1>
+    <p>This page is designed to demonstrate modern semantic HTML, accessibility, and basic SEO techniques.</p>
+  
+   <!-- Site Navigation -->
+  <nav>
+    
+      <a href="/">About</a>
+      <a href="#">Articles</a>
+      <a href="#">Contact</a>
+    
+  </nav>
+  </header>
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page uses semantic HTML5 elements such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> to create a structured layout.</p>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Latest Articles</h2>
+
+      <article aria-labelledby="article-1-title">
+        <h3 id="article-1-title">Understanding HTML5 Semantic Tags</h3>
+        <p>Semantic tags like <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code> help describe the role of content to browsers and assistive technologies.</p>
+      </article>
+
+      <article aria-labelledby="article-2-title">
+        <h3 id="article-2-title">Accessibility Tips for Beginners</h3>
+        <p>Use ARIA labels, landmarks, and meaningful alt text to make your pages more inclusive.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <form aria-label="Contact form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer>
+    <p>&copy; 2025 Judea Muckoya. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
